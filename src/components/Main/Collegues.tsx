@@ -6,7 +6,7 @@ export interface ILayoutLinks {
   data: ILinks[];
 }
 
-const Beneficalinks: React.FC<ILayoutLinks> = ({ title, data }) => {
+const Collegues: React.FC<ILayoutLinks> = ({ title, data }) => {
   return (
     <div className="flex flex-col w-full text-center items-center mb-24">
       <p className="text-4xl font-semibold text-black my-6">{title}</p>
@@ -14,10 +14,15 @@ const Beneficalinks: React.FC<ILayoutLinks> = ({ title, data }) => {
         {data.map((item: ILinks) => {
           return (
             <Link key={item.id} className="col-span-1 " to={item.href}>
-              <img 
-              src={item.src}
-              className="w-32 h-32 object-scale-down rounded-full"
-               alt={item.alt} />
+              <img
+                src={item.src}
+                className={`${
+                  item.id == 1
+                    ? "w-28 h-40 object-scale-down "
+                    : "w-40 h-40 object-scale-down "
+                }`}
+                alt={item.alt}
+              />
             </Link>
           );
         })}
@@ -26,5 +31,4 @@ const Beneficalinks: React.FC<ILayoutLinks> = ({ title, data }) => {
   );
 };
 
-export default Beneficalinks;
-// link, image, id
+export default Collegues;

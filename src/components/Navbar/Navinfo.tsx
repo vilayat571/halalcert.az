@@ -5,7 +5,7 @@ const Navinfo = () => {
     <div id="info" className="flex flex-row items-center gap-6">
       {navinfoitems.map((item: INavItemInfo) => {
         return (
-          <Navinfoitem text={item.text} icon={item.icon} title={item.title} />
+          <Navinfoitem key={Math.random()} text={item.text} icon={item.icon} title={item.title} />
         );
       })}
     </div>

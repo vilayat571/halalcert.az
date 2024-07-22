@@ -1,4 +1,3 @@
-
 const News = () => {
   return (
     <div>
