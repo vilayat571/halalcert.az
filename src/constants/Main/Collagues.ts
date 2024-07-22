@@ -17,7 +17,7 @@ export const linkofCollegure:ILinks[] = [
       src: "https://hak.gov.tr/assets/images/logo.png?v=1",
     },
     {
-      id: 3,
+      id: 4,
       href: "/",
       src: "https://www.smiic.org/img/smiic.svg",
     },
