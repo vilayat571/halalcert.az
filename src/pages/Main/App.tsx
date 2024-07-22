@@ -15,8 +15,8 @@ const App = () => {
         <Cover />
         <Whous />
         <Beneficalinks title="- Faydalı linklər -" data={linksofBenefits} />
-         <Collegues title="-  Bizim partnyorlarımız  -" data={linkofCollegure} />
-        <Companies title="- Bizim Əməkdaşlıq edirik -" data={companiesLinks} /> 
+         <Collegues title="-  Partnyorlarımız  -" data={linkofCollegure} />
+        <Companies title="- Əməkdaşlarımız -" data={companiesLinks} /> 
       </div>
     </Layout>
   );

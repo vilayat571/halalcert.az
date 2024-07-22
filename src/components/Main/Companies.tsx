@@ -11,8 +11,8 @@ interface ILayoutLinks {
 const Companies:React.FC<ILayoutLinks> = ({ title, data }) => {
   return (
     <div className="flex flex-col w-full text-center items-center mb-4">
-    <p className="text-4xl font-semibold text-black my-6">{title}</p>
-    <div className={`grid grid-cols-4 mt-8 gap-10`}>
+    <p className="xl:text-4xl lg:text-4xl md:text-2xl sm:text-3xl font-semibold text-black my-6">{title}</p>
+    <div className={`grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 mt-8 gap-10`}>
       {data.map((item: ILinks) => {
         return (
           <Link key={item.id} className="col-span-1 " to={item.href}>

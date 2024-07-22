@@ -9,9 +9,11 @@ import { hrefsData } from "../../constants/Navbar/Hrefs";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col bg-[#067E45] w-full h-auto pt-12 pb-3 px-32">
-      <div className="grid grid-cols-3 ">
-        <div className="col-span-1">
+    <div className="flex flex-col bg-[#067E45] w-full h-auto pt-12 pb-3 
+    xl:px-32 lg:px-32 md:px-12 sm:px-4
+    ">
+      <div className="grid xl:grid-cols-3 lg:grid-cols-3 gap-12 md:grid-cols-1 sm:grid-cols-1 ">
+        <div className="col-span-1 ">
           <p className="text-xl font-semibold text-[#fff]">AzeSERT HALAL MMC</p>
           <p className="text-[15px] text-[#fff] tracking-wider w mt-3">
             “AzeSERT HALAL” Halal məhsulların Sertifikatlaşdırılması Orqanı
@@ -56,7 +58,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="col-span-1 flex justify-center relative left-12">
+        <div className="col-span-1 flex xl:justify-center lg:justify-center md:justify-center sm:justify-start 
+        relative xl:left-12 lg:left-12 md:left-12 sm:left-0">
           <div>
             <p className="text-xl font-semibold text-[#fff]">Səhifələr</p>
             <div className="mt-3 flex flex-col gap-y-1">
@@ -75,7 +78,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="col-span-1 flex justify-end  ">
+        <div className="col-span-1 flex xl:justify-end lg:justify-end md:justify-end sm:justify-start  ">
           <div>
             <p className="text-xl font-semibold text-[#fff]">
               Saytın hissələri
@@ -98,12 +101,12 @@ const Footer = () => {
         </div>
       </div>
       <hr className="my-6" />
-      <div className="text-sm tracking-wider text-white">
+      <div className="text-sm leading-relaxed text-white">
         Copyright © 2024 Bütün hüquqlar qorunur | Bu sayt
         <Link to="https://safarovacademy.com/" className="mx-1">
           <u>Vilayət Səfərov</u>
         </Link>
-        tərəfindən hazırlanmışdır
+        tərəfindən hazırlanmışdır.
       </div>
     </div>
   );

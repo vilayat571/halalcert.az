@@ -14,3 +14,7 @@
   scroll-behavior: smooth;
   letter-spacing: 0.6px;
 }
+
+body{
+  overflow-x: hidden;
+}

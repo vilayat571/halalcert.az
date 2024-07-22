@@ -4,17 +4,17 @@ const Cover = () => {
   return (
     <>
       <img
-        className="w-full object-cover h-[600px]"
-        src="https://www.mynewlab.com/wp-content/uploads/elementor/thumbs/iStock-1314329972-q34phynb2v4pc6k2dgkbm7n1gc6ou19hkpwme91jms.jpg"
+        className="w-full object-cover xl:h-[600px] lg:h-[600px] md:h-screen sm:h-[500px]"
+src="https://www.advantour.com/img/azarbaijan/images/index.jpg"
         alt="the image of Azercett website"
       />
-      <div className="w-full  bg-black opacity-70 absolute top-100 h-[600px]"></div>
-      <div className="w-full  flex items-center justify-center absolute top-100 h-[600px]">
+      <div className="w-full  bg-black opacity-70 absolute top-100 xl:h-[600px] lg:h-[600px] md:h-screen sm:h-[500px]"></div>
+      <div className="w-full  flex items-center justify-center absolute top-100 xl:h-[600px] lg:h-[600px] md:h-screen sm:h-[500px]">
         <div className="flex flex-col items-center">
-          <p className="text-white text-center font-semibold text-3xl mb-1">
+          <p className="text-white text-center font-semibold xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl mb-1">
             AzeSERT HALAL MMC
           </p>
-          <p className="text-center text-white text-5xl tracking-wider leading-[60px] my-3 ">
+          <p className="text-center text-white xl:text-5xl lg:text-5xl md:text-2xl sm:text-2xl  leading-[60px] my-3 ">
             Halal məhsulların
             <br />
             Sertifikatlaşdırılması Orqanı

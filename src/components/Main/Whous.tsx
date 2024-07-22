@@ -1,7 +1,13 @@
 const Whous = () => {
   return (
-    <div className="px-48 py-12">
-      <p className="text-black mb-5 text-4xl font-semibold">
+    <div
+      className="
+    
+    xl:px-48  lg:px-48  md:px-12 sm:px-8
+    
+    py-12"
+    >
+      <p className="text-black mb-5 xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl font-semibold">
         “AzeSERT HALAL” MMC
       </p>
       <p className=" text-[#585656] text-base tracking-wider ">

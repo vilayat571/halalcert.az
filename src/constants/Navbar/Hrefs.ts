@@ -1,13 +1,13 @@
 export const hrefsData = [
   {
     id: 1,
-    text: "Ana səhifə",
+    text: "Əsas səhifə",
     link: "/",
   },
   {
     id: 2,
-    text: "Haqqımızda",
-    link: "/",
+    text: "Biz kimik",
+    link: "/haqqımızda",
   },
   {
     id: 3,
@@ -16,7 +16,7 @@ export const hrefsData = [
   },
   {
     id: 4,
-    text: "Bizimlə əlaqə",
+    text: "Əlaqə",
     link: "/",
   },
 ];
