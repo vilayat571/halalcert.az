@@ -1,11 +1,75 @@
 import CoverAbout from "../../components/About/CoverAbout";
+import Anchor from "../../components/Navbar/Anchor";
 import Layout from "../../layout/Layout";
 
 const About = () => {
   return (
     <Layout>
-      <div className="flex flex-col w-full pb-20">
+      <div className="flex flex-col items-center w-full pb-20">
         <CoverAbout />
+        <div className="flex flex-col items-center py-16 w-3/4">
+          <img
+            className="rounded-lg mb-12"
+            src="https://www.labnetinternational.com/sites/www.labnetinternational.com/files/blogsies/header-images/iStock-949946968.jpg"
+            alt="the image of lab"
+          />
+          <div>
+            <p className="text-black w-full text-center mb-5 xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl font-semibold">
+              “AzeSERT HALAL” MMC
+            </p>
+            <p className=" text-[#585656] text-base tracking-wider ">
+              “Halal” məhsullarının keyfiyyətinin yüksəldilməsi, istehlakçıların
+              hüquqlarının müdafiə edilməsi, “Halal” məhsullarının rəqabət
+              qabiliyyətinin yüksəldilməsi məqsədi ilə 2014-cü ildə “AzeSERT
+              HALAL” Halal məhsulların Sertifikatlaşdırılması Orqanı
+              yaradılmışdır.
+              <br />
+              <br />
+              “AzeSERT HALAL” Halal məhsulların Sertifikatlaşdırılması Orqanı
+              2014-cü ildən bu günə kimi yalnız “HALAL” məhsulların
+              sertifikatlaşdırılması orqanı kimi fəaliyyət göstərir.
+              <br />
+              <br />
+              “AzeSERT HALAL” MMC ”Halal” məhsullarına sertifikat verən orqan
+              kimi Azərbaycan Respublikasının qüvvədə olan qanunvericiliyinə və
+              Azərbaycan Akkreditasiya Mərkəzinin tələblərinə uyğun “Halal”
+              məhsullarının Sertifikatlaşdırılması Orqanı kimi fəaliyyət
+              göstərir. “Halal” məhsullarının Sertifikatlaşdırılması Orqanı kimi
+              nəzərdə tutulan bu orqanın əsas məqsədi{" "}
+              <i>AZS OIC/SMIIC 1:2022 (OIC/SMIIC 1:2019)</i> “Halal qida üçün
+              ümumi tələblər” və <i>AZS OIC/SMIIC 2:2022</i> “Uyğunluğun
+              qiymətləndirilməsi – halal sertifikatlaşdırmanı həyata keçirən
+              orqanlar üçün tələblər” standartlarının tələblərinə uyğun
+              fəaliyyət göstərməkdir.
+              <br />
+              <br />
+              “AzeSERT HALAL” MMC{" "}
+              <i>Azərbaycan Respublikasında ilk və yeganə akkreditasiya</i>{" "}
+              olunmuş “Halal” məhsulların Sertifikatlaşdırılması Orqanıdır.
+              <br />
+              <br />
+              Halal məhsulların Sertifikatlaşdırılması Orqanı{" "}
+              <i>
+                AZS OIC/SMIIC 1:2022 (OIC/SMIIC 1:2019) “Halal qida üçün ümumi
+                tələblər”, AZS OIC/SMIIC 2:2022 “Uyğunluğun qiymətləndirilməsi –
+                halal sertifikatlaşdırmanı həyata keçirən orqanlar üçün
+                tələblər”
+              </i>
+              və digər beynəlxalq standartlar tələblərinə uyğun olaraq fəaliyyət
+              göstərir və sistemin fəaliyyəti zamanı təkmilləşdirmənin
+              aparılmasını qarşısına məqsəd qoymuşdur.
+            </p>
+
+            <Anchor
+              href="https://wa.me/994507269899"
+              style="px-6 text-center rounded py-4 text-sm 
+    bg-[#29a829] text-white  w-40 relative top-12"
+              target={true}
+              label="Phone number: +994507269899"
+              text="Bizə yaz"
+            />
+          </div>
+        </div>
       </div>
     </Layout>
   );
