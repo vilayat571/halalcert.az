@@ -5,7 +5,7 @@ const Cover = () => {
     <>
       <img
         className="w-full object-cover xl:h-[600px] lg:h-[600px] md:h-screen sm:h-[500px]"
-src="https://www.advantour.com/img/azarbaijan/images/index.jpg"
+src="https://www.flydubai.com/en/media/baku_tcm8-6178.jpg"
         alt="the image of Azercett website"
       />
       <div className="w-full  bg-black opacity-70 absolute top-100 xl:h-[600px] lg:h-[600px] md:h-screen sm:h-[500px]"></div>

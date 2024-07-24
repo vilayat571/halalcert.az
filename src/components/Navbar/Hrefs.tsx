@@ -3,7 +3,7 @@ import { hrefsData } from "../../constants/Navbar/Hrefs";
 
 const Hrefs = () => {
   return (
-    <div className="flex flex-row gap-4">
+    <div className="flex flex-row gap-5 tracking-widest">
       {hrefsData.map((item) => {
         return (
           <Link key={item.id} to={item.link} className="text-white text-base ">

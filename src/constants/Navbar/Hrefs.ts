@@ -11,12 +11,12 @@ export const hrefsData = [
   },
   {
     id: 3,
-    text: "Qanunvericilik",
-    link: "/",
+    text: "Qanunlar & Sənədlər",
+    link: "/qanunvericilik",
   },
   {
     id: 4,
     text: "Əlaqə",
-    link: "/",
+    link: "/elaqe",
   },
 ];
