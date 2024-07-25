@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { hrefsData } from "../../constants/Navbar/Hrefs";
 
-const Hrefs = () => {
+const Hrefs = ({style}:{style:string}) => {
   return (
-    <div className="flex flex-row gap-5 tracking-widest">
+    <div className={` ${style} tracking-widest`}>
       {hrefsData.map((item) => {
         return (
-          <Link key={item.id} to={item.link} className="text-white text-base ">
+          <Link key={item.id} to={item.link} className="text-base ">
             {item.text}
           </Link>
         );

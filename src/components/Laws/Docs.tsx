@@ -9,6 +9,7 @@ const Docs = () => {
       {dataDocs.map((item: IDATADOCS) => {
         return (
           <Anchor
+          key={item.id}
             href={item.file}
             style="text-[#1d61df] mb-2 underline"
             target={true}

@@ -11,7 +11,7 @@ const Navbarhrefs = () => {
       xl:flex lg:flex md:hidden sm:hidden
       flex justify-between items-center"
     >
-      <Hrefs />
+      <Hrefs style={'flex flex-row gap-5 text-white'} />
       <Anchor
         href="https://wa.me/994507269899"
         style="px-5  py-3 text-sm 

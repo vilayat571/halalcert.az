@@ -17,7 +17,7 @@ const Contact = () => {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d379.8052167903536!2d49.89043!3d40.399064!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDIzJzU2LjciTiA0OcKwNTMnMjUuMSJF!5e0!3m2!1sen!2saz!4v1721710208473!5m2!1sen!2saz"
             
-            className="rounded-lg  shadow-md border-none outline-none 
+            className="rounded-lg border-none outline-none 
             xl:w-[600px] lg:w-[600px] md:w-[600px] sm:w-[350px]
             w-[600px]
             h-[350px]"
@@ -63,6 +63,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
+
+          
         </div>
       </div>
     </Layout>
