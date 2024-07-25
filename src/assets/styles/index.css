@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  src: local("Oceanwide"), url("../fonts/Oceanwide/Oceanwide-Regular.ttf") format("truetype");
+  src: local("Oceanwide"), url("../fonts/oceanwide-cufonfonts/Oceanwide-Semibold.otf") format("truetype");
 }
 
 * {
