@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  src: local("Oceanwide"), url("../fonts/oceanwide-cufonfonts/Oceanwide-Semibold.otf") format("truetype");
+  font-family: 'Oceanwide';
+  src: url("../fonts/oceanwide-cufonfonts/Oceanwide-Semibold.otf") format("truetype");
 }
 
 * {
@@ -15,6 +16,6 @@
   letter-spacing: 0.9px;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
