@@ -1,10 +1,18 @@
 import CoverAbout from "../../components/About/CoverAbout";
 import Anchor from "../../components/Navbar/Anchor";
+import SEO from "../../constants/SEO/SEO";
 import Layout from "../../layout/Layout";
 
 const About = () => {
   return (
     <Layout>
+      <SEO
+        title="AzeSERT HALAL - Haqqımızda"
+        description="AzeSERT HALAL 2014-cü ildən fəaliyyət göstərən və yalnız 'HALAL' məhsulların sertifikatlaşdırılması üzrə ixtisaslaşmış bir orqandır. Bizim missiyamız və dəyərlərimiz haqqında ətraflı məlumat."
+        name="AzeSERT HALAL"
+        type="website"
+        keywords="AzeSERT HALAL, haqqımızda, halal məhsul sertifikatı, halal sertifikatlaşdırma, şirkət missiyası, şirkət dəyərləri"
+      />
       <div className="flex flex-col items-center w-full pb-20">
         <CoverAbout />
         <div className="flex flex-col items-center py-16 w-3/4">

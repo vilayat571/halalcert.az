@@ -4,10 +4,18 @@ import Covercontact from "../../components/Contact/Covercontact";
 import { navinfoitems } from "../../constants/Navbar/Navitems";
 import Layout from "../../layout/Layout";
 import { faHourglass, faTasks } from "@fortawesome/free-solid-svg-icons";
+import SEO from "../../constants/SEO/SEO";
 
 const Contact = () => {
   return (
     <Layout>
+      <SEO
+        title="AzeSERT HALAL - Əlaqə"
+        description="AzeSERT HALAL ilə əlaqə qurmaq üçün məlumatlar. Bizimlə əlaqə saxlamaq üçün telefon nömrələri, e-poçt ünvanları və ünvanlar burada təqdim olunur."
+        name="AzeSERT HALAL"
+        type="website"
+        keywords="Əlaqə, AzeSERT HALAL, telefon nömrəsi, e-poçt ünvanı, ünvan, əlaqə məlumatları"
+      />
       <div className="flex flex-col items-center w-full pb-20">
         <Covercontact />
         <p className="text-center font-semibold mt-12 text-3xl">
@@ -16,7 +24,6 @@ const Contact = () => {
         <div className="flex xl:flex-row lg:flex-row md:flex-row sm:flex-col w-3/4 gap-16 xl:items-start lg:items-start md:items-start sm:items-center justify-center my-6">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d379.8052167903536!2d49.89043!3d40.399064!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDIzJzU2LjciTiA0OcKwNTMnMjUuMSJF!5e0!3m2!1sen!2saz!4v1721710208473!5m2!1sen!2saz"
-            
             className="rounded-lg border-none outline-none 
             xl:w-[600px] lg:w-[600px] md:w-[600px] sm:w-[350px]
             w-[600px]
@@ -63,8 +70,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-
-          
         </div>
       </div>
     </Layout>
