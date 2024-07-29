@@ -5,7 +5,7 @@ const Covercontact = () => {
     <>
     <img
       className="w-full object-cover h-[600px]"
-    src="https://78884ca60822a34fb0e6-082b8fd5551e97bc65e327988b444396.ssl.cf3.rackcdn.com/up/2022/11/_D859762-1-1667589414-1667589414.jpg"
+    src="https://www.captureatrip.com/_next/image?url=https%3A%2F%2Fcaptureatrip-new-website.s3.ap-south-1.amazonaws.com%2Fimages%2Ftrip%2Faf2f8bc2-682e-4fd0-8b91-eae6ca8610f8.webp&w=3840&q=80"
       alt="the image of Azercett website"
     />
     <div className="w-full  bg-black opacity-50 absolute top-100 h-[600px]"></div>

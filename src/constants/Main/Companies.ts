@@ -42,7 +42,7 @@ export const companiesLinks: ILinks[] = [
     id: 7,
     href: "/",
     alt:"azersun.com şirkətinin loqosu AZESERT MMC şirkətinin vebsaytı",
-    src: "https://saba.az/uploads/photos/setting/logo.svg",
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUVl1hqyQ8XpV1PuqBhsid-cnz9v4Q9nGGuA&s",
   },
   {
     id: 8,

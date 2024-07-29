@@ -15,7 +15,7 @@ const About = () => {
       />
       <div className="flex flex-col items-center w-full pb-20">
         <CoverAbout />
-        <div className="flex flex-col items-center py-16 w-3/4">
+        <div id="about" className="flex flex-col items-center py-16 xl:w-1/2 px-2 lg:w-3/4 sm:w-full md:w-full">
           <img
             className="rounded-lg mb-12"
             src="https://www.labnetinternational.com/sites/www.labnetinternational.com/files/blogsies/header-images/iStock-949946968.jpg"
@@ -69,7 +69,7 @@ const About = () => {
             </p>
 
             <Anchor
-              href="https://wa.me/994507269899"
+              href="https://wa.me/994553430353"
               style="px-6 text-center rounded py-4 text-sm 
     bg-[#29a829] text-white  w-40 relative top-12"
               target={true}

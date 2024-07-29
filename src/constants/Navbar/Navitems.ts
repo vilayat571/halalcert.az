@@ -1,5 +1,5 @@
 import { INavItemInfo } from "../../atoms/Navbar/Navinfoitem";
-import { faLocation, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 export const navinfoitems: INavItemInfo[] = [
   {
@@ -8,8 +8,8 @@ export const navinfoitems: INavItemInfo[] = [
     text: "+994 50 890 8727",
   },
   {
-    icon: faLocation,
-    title: "Ünvan",
-    text: "Bakı, Yasamal, 2th Alatava",
+    icon: faEnvelope,
+    title: "E-poçt adresi",
+    text: "info@halacert.com",
   },
 ];

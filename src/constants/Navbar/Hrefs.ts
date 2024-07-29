@@ -19,4 +19,9 @@ export const hrefsData = [
     text: "Əlaqə",
     link: "/elaqe",
   },
+  {
+    id: 5,
+    text: "Xəbərlər",
+    link: "/xeberler",
+  },
 ];

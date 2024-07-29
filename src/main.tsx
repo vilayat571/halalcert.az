@@ -8,6 +8,8 @@ import Contact from "./pages/Contact/Contact.tsx";
 import Laws from "./pages/Laws/Laws.tsx";
 import NotFound from "./pages/Notfound/NotFound.tsx";
 import { HelmetProvider } from "react-helmet-async";
+import Mainnews from "./pages/News/Mainnews.tsx";
+import Singlenews from "./pages/News/Singlenews.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -19,6 +21,8 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           <Route path="/elaqe" element={<Contact />} />
           <Route path="/qanunvericilik" element={<Laws />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/xeberler" element={<Mainnews />} />
+          <Route path="/xeberler/:id" element={<Singlenews />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
