@@ -22,7 +22,7 @@ const App = () => {
       <div className="flex  flex-col w-full pb-20">
         <Cover />
         <Whous />
-        <Beneficalinks title="- Faydalı linklər -" data={linksofBenefits} />
+        <Beneficalinks title="- e4 linklər -" data={linksofBenefits} />
         <Collegues title="-  Partnyorlarımız  -" data={linkofCollegure} />
         <Companies title="- Əməkdaşlarımız -" data={companiesLinks} />
       </div>
