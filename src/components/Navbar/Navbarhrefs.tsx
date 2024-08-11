@@ -13,12 +13,12 @@ const Navbarhrefs = () => {
     >
       <Hrefs style={'flex flex-row gap-5 text-white'} />
       <Anchor
-        href="https://wa.me/994507269899"
+        href="https://wa.me/994553430353"
         style="px-5  py-3 text-sm 
           border-white rounded border-[1px]
            xl:block lg:block sm:hidden md:hidden"
         target={true}
-        label="Phone number: +994507269899"
+        label="Phone number: +994 55 343 03 53"
         text=" Müraciət edin"
       />
     </div>

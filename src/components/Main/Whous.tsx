@@ -3,9 +3,9 @@ const Whous = () => {
     <div className=" w-full flex   justify-center ">
       <div
         className="
- xl:w-1/2 lg:w-4/5 md:w-5/6 sm:w-full 
+ xl:w-3/5 lg:w-4/5 md:w-5/6 sm:w-full 
     
-    py-12"
+    py-12 mt-8"
       >
         <p className="text-black mb-5 xl:text-4xl lg:text-4xl px-2 md:text-3xl sm:text-2xl font-semibold">
           “AzeSERT HALAL” MMC

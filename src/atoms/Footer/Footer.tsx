@@ -1,6 +1,4 @@
-import {
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { hrefsData } from "../../constants/Navbar/Hrefs";
@@ -26,7 +24,7 @@ const Footer = () => {
               href={
                 "https://www.instagram.com/azecerthalal?igsh=eHRyMDFzeHZ0ZWRt"
               }
-              aria-label="the link of Raja Restaurant Social Media Account"
+              aria-label="the link of AzeCert MMC Social Media Account"
               className=" p-3 bg-[#067E45] border-[1px] border-white rounded-full flex justify-center items-center"
               target="blank"
             >
@@ -66,17 +64,17 @@ const Footer = () => {
               Saytın hissələri
             </p>
             <div className="mt-3 flex flex-col gap-y-1">
-              <Link to={"/"} className="text-white text-base ">
+              <Link to={"/#partnyorlarımız"} className="text-white text-base ">
                 Partnyorlarımız
               </Link>
-              <Link to={"/"} className="text-white text-base ">
+              <Link to={"/#emekdaşlarımız"} className="text-white text-base ">
                 Əməkdaşlarımız
               </Link>
-              <Link to={"/"} className="text-white text-base ">
+              <Link to={"/#faydalılinkler"} className="text-white text-base ">
                 Faydalı linklər
               </Link>
               <a
-              target="blank"
+                target="blank"
                 href={"https://wa.me/994553430353"}
                 className="text-white text-base px-4 py-2 border border-white rounded text-center mt-3 "
               >

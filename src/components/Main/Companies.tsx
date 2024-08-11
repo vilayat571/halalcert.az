@@ -1,6 +1,5 @@
 import React from "react";
 import { ILinks } from "../../constants/Main/Linksofbenefits";
-import { Link } from "react-router-dom";
 
 interface ILayoutLinks {
   title: string;
@@ -9,7 +8,7 @@ interface ILayoutLinks {
 
 const Companies: React.FC<ILayoutLinks> = ({ title, data }) => {
   return (
-    <div className="flex flex-col w-full text-center items-center mb-4">
+    <div id="emekdaşlarımız" className="flex flex-col w-full text-center items-center mb-4">
       <p className="xl:text-4xl lg:text-4xl md:text-2xl  sm:text-3xl font-semibold text-black my-6">
         {title}
       </p>
@@ -19,17 +18,19 @@ const Companies: React.FC<ILayoutLinks> = ({ title, data }) => {
       >
         {data.map((item: ILinks) => {
           return (
-            <Link
+            <a
+              aria-label={`the link of ${item.alt}`}
+              target="blank"
               key={item.id}
               className="col-span-1 flex justify-center items-center"
-              to={item.href}
+              href={item.href}
             >
               <img
                 src={item.src}
                 className={`w-32 h-32 object-scale-down  justify-center items-center '}`}
                 alt={item.alt}
               />
-            </Link>
+            </a>
           );
         })}
       </div>

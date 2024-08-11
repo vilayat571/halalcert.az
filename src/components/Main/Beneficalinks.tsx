@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { ILinks } from "../../constants/Main/Linksofbenefits";
 
 export interface ILayoutLinks {
@@ -8,7 +7,10 @@ export interface ILayoutLinks {
 
 const Beneficalinks: React.FC<ILayoutLinks> = ({ title, data }) => {
   return (
-    <div id="home" className="flex flex-col w-full text-center  items-center justify-center mb-24">
+    <div
+      id="faydalılinkler"
+      className="flex flex-col w-full text-center  items-center justify-center mb-24"
+    >
       <p className="xl:text-4xl lg:text-4xl md:text-2xl sm:text-2xl font-semibold text-black my-6">
         {title}
       </p>
@@ -17,13 +19,19 @@ const Beneficalinks: React.FC<ILayoutLinks> = ({ title, data }) => {
       >
         {data.map((item: ILinks) => {
           return (
-            <Link key={item.id} className="col-span-1 flex items-center justify-center" to={item.href}>
+            <a
+              aria-label={`the link of ${item.alt}`}
+              key={item.id}
+              className="col-span-1 flex items-center justify-center"
+              target="blank"
+              href={item.href}
+            >
               <img
                 src={item.src}
                 className="w-32 h-32  object-scale-down rounded-full"
                 alt={item.alt}
               />
-            </Link>
+            </a>
           );
         })}
       </div>

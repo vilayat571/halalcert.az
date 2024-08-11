@@ -5,11 +5,11 @@ export const navinfoitems: INavItemInfo[] = [
   {
     icon: faPhone,
     title: "Telefon",
-    text: "+994 50 890 8727",
+    text: "+994 55 343 03 53",
   },
   {
     icon: faEnvelope,
     title: "E-poçt adresi",
-    text: "info@halacert.com",
+    text: "info@halalcert.az",
   },
 ];
