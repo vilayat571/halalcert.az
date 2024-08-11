@@ -3,7 +3,7 @@ const Whous = () => {
     <div className=" w-full flex   justify-center ">
       <div
         className="
- xl:w-3/5 lg:w-4/5 md:w-5/6 sm:w-full 
+ xl:w-3/5 lg:w-3/4 md:w-5/6 sm:w-full 
     
     py-12 mt-8"
       >

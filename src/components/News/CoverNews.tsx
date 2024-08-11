@@ -11,17 +11,18 @@ const CoverNews = () => {
       <div className="w-full  bg-black opacity-70 absolute top-100 xl:h-[600px] lg:h-[600px] md:h-screen sm:h-[500px]"></div>
       <div className="w-full  flex items-center justify-center absolute top-100 xl:h-[600px] lg:h-[600px] md:h-screen sm:h-[500px]">
         <div className="flex flex-col items-center">
-          <p className="text-white text-center font-semibold xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl mb-1">
-            AzeSERT HALAL MMC
-          </p>
-          <p className="text-center text-white xl:text-5xl lg:text-5xl md:text-2xl sm:text-2xl  leading-[60px] my-3 ">
-            Xəbərlər
-            <br />
+        <p className="text-center text-white 
+          xl:text-5xl lg:text-4xl md:text-2xl sm:text-3xl mb-2  
+          leading-[120px]
+           sm:my-1 xl:my-4 lg:my-4 md:my-3 ">
+          AzeSERT Halal 
+          <br />
+        Bütün Xəbərlər
           </p>
           <Anchor
             href="https://wa.me/994507269899"
             style="px-2 text-center rounded py-4 text-sm 
- bg-[#29a829] text-white  w-32 mt-3"
+    bg-[#29a829] text-white  w-32 sm:mt-2 md:mt-0 lg:mt-0 xl:mt-0"
             target={true}
             label="Phone number: +994507269899"
             text="Ətraflı"

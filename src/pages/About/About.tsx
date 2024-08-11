@@ -73,7 +73,7 @@ const About = () => {
               style="px-6 text-center rounded py-4 text-sm 
     bg-[#29a829] text-white  w-40 relative top-12"
               target={true}
-              label="Phone number: +994507269899"
+              label="Phone number: +994553430353"
               text="Bizə yaz"
             />
           </div>

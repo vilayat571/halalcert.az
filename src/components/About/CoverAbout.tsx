@@ -11,16 +11,19 @@ const CoverAbout = () => {
       <div className="w-full  bg-black opacity-70 absolute top-100 h-[600px]"></div>
       <div className="w-full  flex items-center justify-center absolute top-100 h-[600px]">
         <div className="flex flex-col items-center">
-          <p className="text-white text-center font-semibold text-2xl ">
-            AzeSERT HALAL MMC
-          </p>
-          <p className="text-center text-white text-3xl tracking-wider leading-[60px] ">
-            Biz kimik?
+        
+          <p className="text-center text-white 
+          xl:text-5xl lg:text-4xl md:text-2xl sm:text-4xl  
+          leading-[120px]
+           sm:my-1 xl:my-4 lg:my-4 md:my-3 ">
+          AzeSERT Halal 
+          <br />
+          Biz kimik?
           </p>
           <Anchor
             href="#about"
             style="px-2 text-center rounded py-4 text-sm 
-    bg-[#29a829] text-white  w-32 mt-0"
+    bg-[#29a829] text-white  w-32 sm:mt-2 md:mt-0 lg:mt-0 xl:mt-0"
             target={false}
             label="Learn more link"
             text="Ətraflı"

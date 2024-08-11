@@ -11,10 +11,6 @@ import {
 const ContactDetails = () => {
   return (
     <div className="flex w-full flex-col items-center justify-center">
-      <p className="text-center font-semibold mt-20
-      xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl">
-        -Ofisimizə gəl-
-      </p>
       <div className="grid grid-cols-1 xl:w-1/2 sm:w-full px-2 md:w-4/5 lg:w-3/4 gap-16  my-12 mt-8">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d379.8052167903536!2d49.89043!3d40.399064!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDIzJzU2LjciTiA0OcKwNTMnMjUuMSJF!5e0!3m2!1sen!2saz!4v1721710208473!5m2!1sen!2saz"
@@ -23,7 +19,6 @@ const ContactDetails = () => {
         />
         <p className="text-center font-semibold mt-8 
         xl:text-3xl lg:text-3xl md:text-2xl sm:text-2xl">
-          -Əlavə məlumatlar-
         </p>
 
         <div
@@ -33,7 +28,6 @@ const ContactDetails = () => {
         gap-12 px-2 col-span-1"
         >
           <div className="col-span-1 flex flex-col items-start justify-center gap-4">
-            <p className="text-xl font-semibold">Əlaqə vasitələri</p>
             {navinfoitems.map((item: INavItemInfo) => {
               return (
                 <Navinfoitem

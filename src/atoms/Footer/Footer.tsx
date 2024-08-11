@@ -1,4 +1,4 @@
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { hrefsData } from "../../constants/Navbar/Hrefs";
@@ -30,6 +30,19 @@ const Footer = () => {
             >
               <FontAwesomeIcon
                 icon={faInstagram}
+                className="text-[#fff] text-base"
+              />
+            </a>
+            <a
+              href={
+                "https://www.linkedin.com/company/azesert-halal-mmc/?viewAsMember=false"
+              }
+              aria-label="the link of AzeCert MMC Social Media Account"
+              className=" p-3 bg-[#067E45] border-[1px] border-white rounded-full flex justify-center items-center"
+              target="blank"
+            >
+              <FontAwesomeIcon
+                icon={faLinkedin}
                 className="text-[#fff] text-base"
               />
             </a>
