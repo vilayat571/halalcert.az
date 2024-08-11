@@ -7,8 +7,8 @@ const Header = () => {
   flex xl:flex-row lg:flex-row md:flex-row sm:flex-col text-left gap-2 justify-between xl:items-center lg:items-center md:items-start sm:items-start"
       id="header"
     >
-      <p>E-poçt adresi: info@certus.az</p>
-      <p>AZECERT MMC 10 ildir sizinlə</p>
+      <p>E-poçt adresi: info@halalcert.az</p>
+      <p>AZECERT 10 İLDİR SİZİNLƏ</p>
     </div>
   );
 };
