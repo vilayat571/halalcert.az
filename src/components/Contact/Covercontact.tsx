@@ -20,11 +20,11 @@ const Covercontact = () => {
          Bizimlə Əlaqə
           </p>
         <Anchor
-          href="https://wa.me/994507269899"
+          href="https://wa.me/994553430353"
           style="px-2 text-center rounded py-4 text-sm 
     bg-[#29a829] text-white  w-32 sm:mt-2 md:mt-0 lg:mt-0 xl:mt-0"
           target={true}
-          label="Phone number: +994507269899"
+          label="Phone number: ++994 55 343 03 53"
           text="Ətraflı"
         />
       </div>

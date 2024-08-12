@@ -77,15 +77,15 @@ const Footer = () => {
               Saytın hissələri
             </p>
             <div className="mt-3 flex flex-col gap-y-1">
-              <Link to={"/#partnyorlarımız"} className="text-white text-base ">
+              <a href={"/#partnyorlarımız"} className="text-white text-base ">
                 Partnyorlarımız
-              </Link>
-              <Link to={"/#emekdaşlarımız"} className="text-white text-base ">
+              </a>
+              <a href={"/#emekdaşlarımız"} className="text-white text-base ">
                 Əməkdaşlarımız
-              </Link>
-              <Link to={"/#faydalılinkler"} className="text-white text-base ">
+              </a>
+              <a href={"/#faydalılinkler"} className="text-white text-base ">
                 Faydalı linklər
-              </Link>
+              </a>
               <a
                 target="blank"
                 href={"https://wa.me/994553430353"}

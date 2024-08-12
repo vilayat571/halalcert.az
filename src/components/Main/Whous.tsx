@@ -1,6 +1,6 @@
 const Whous = () => {
   return (
-    <div className=" w-full flex   justify-center ">
+    <div  id="home" className=" w-full flex   justify-center ">
       <div
         className="
  xl:w-3/5 lg:w-3/4 md:w-5/6 sm:w-full 
