@@ -23,7 +23,7 @@ const About = () => {
           />
           <div>
             <p className="text-black w-full text-center mb-5 xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl font-semibold">
-              “AzeSERT HALAL” MMC
+              “AzeSERT HALAL” 
             </p>
             <p className=" text-[#585656] text-base tracking-wider ">
               “Halal” məhsullarının keyfiyyətinin yüksəldilməsi, istehlakçıların
@@ -38,7 +38,7 @@ const About = () => {
               sertifikatlaşdırılması orqanı kimi fəaliyyət göstərir.
               <br />
               <br />
-              “AzeSERT HALAL” MMC ”Halal” məhsullarına sertifikat verən orqan
+              “AzeSERT HALAL”  ”Halal” məhsullarına sertifikat verən orqan
               kimi Azərbaycan Respublikasının qüvvədə olan qanunvericiliyinə və
               Azərbaycan Akkreditasiya Mərkəzinin tələblərinə uyğun “Halal”
               məhsullarının Sertifikatlaşdırılması Orqanı kimi fəaliyyət
@@ -51,7 +51,7 @@ const About = () => {
               fəaliyyət göstərməkdir.
               <br />
               <br />
-              “AzeSERT HALAL” MMC{" "}
+              “AzeSERT HALAL” {" "}
               <i>Azərbaycan Respublikasında ilk və yeganə akkreditasiya</i>{" "}
               olunmuş “Halal” məhsulların Sertifikatlaşdırılması Orqanıdır.
               <br />

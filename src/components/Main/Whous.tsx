@@ -8,7 +8,7 @@ const Whous = () => {
     py-12 mt-8"
       >
         <p className="text-black mb-5 xl:text-4xl lg:text-4xl px-2 md:text-3xl sm:text-2xl font-semibold">
-          “AzeSERT HALAL” MMC
+          “AzeSERT HALAL” 
         </p>
         <p className=" text-[#585656] text-base tracking-wider px-2">
           “Halal” məhsullarının keyfiyyətinin yüksəldilməsi, istehlakçıların
@@ -22,7 +22,7 @@ const Whous = () => {
           sertifikatlaşdırılması orqanı kimi fəaliyyət göstərir.
           <br />
           <br />
-          “AzeSERT HALAL” MMC ”Halal” məhsullarına sertifikat verən orqan kimi
+          “AzeSERT HALAL”  ”Halal” məhsullarına sertifikat verən orqan kimi
           Azərbaycan Respublikasının qüvvədə olan qanunvericiliyinə və
           Azərbaycan Akkreditasiya Mərkəzinin tələblərinə uyğun “Halal”
           məhsullarının Sertifikatlaşdırılması Orqanı kimi fəaliyyət göstərir.
@@ -35,7 +35,7 @@ const Whous = () => {
           göstərməkdir.
           <br />
           <br />
-          “AzeSERT HALAL” MMC{" "}
+          “AzeSERT HALAL” {" "}
           <i>Azərbaycan Respublikasında ilk və yeganə akkreditasiya</i> olunmuş
           “Halal” məhsulların Sertifikatlaşdırılması Orqanıdır.
           <br />

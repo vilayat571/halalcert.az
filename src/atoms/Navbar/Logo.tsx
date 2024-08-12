@@ -7,7 +7,7 @@ const Logo = () => {
       <img
         src={logo}
         className="w-auto object-cover h-28"
-        alt="The logo of AzeCert MMC"
+        alt="The logo of AzeCert Halal"
       />
     </Link>
   );

@@ -12,7 +12,7 @@ const Footer = () => {
     >
       <div className="grid xl:grid-cols-3 lg:grid-cols-3 gap-12 md:grid-cols-1 sm:grid-cols-1 ">
         <div className="col-span-1 ">
-          <p className="text-xl font-semibold text-[#fff]">AzeSERT HALAL MMC</p>
+          <p className="text-xl font-semibold text-[#fff]">AzeSERT HALAL</p>
           <p className="text-[15px] text-[#fff] tracking-wider w mt-3">
             “AzeSERT HALAL” Halal məhsulların Sertifikatlaşdırılması Orqanı
             2014-cü ildən bu günə kimi yalnız “HALAL” məhsulların
@@ -24,7 +24,7 @@ const Footer = () => {
               href={
                 "https://www.instagram.com/azecerthalal?igsh=eHRyMDFzeHZ0ZWRt"
               }
-              aria-label="the link of AzeCert MMC Social Media Account"
+              aria-label="the link of AzeCert  Social Media Account"
               className=" p-3 bg-[#067E45] border-[1px] border-white rounded-full flex justify-center items-center"
               target="blank"
             >
@@ -35,9 +35,9 @@ const Footer = () => {
             </a>
             <a
               href={
-                "https://www.linkedin.com/company/azesert-halal-mmc/?viewAsMember=false"
+                "https://www.linkedin.com/company/azesert-halal-/?viewAsMember=false"
               }
-              aria-label="the link of AzeCert MMC Social Media Account"
+              aria-label="the link of AzeCert  Social Media Account"
               className=" p-3 bg-[#067E45] border-[1px] border-white rounded-full flex justify-center items-center"
               target="blank"
             >

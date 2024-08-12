@@ -76,7 +76,7 @@ const ContactDetails = () => {
 
               <p className="flex flex-col ">
                 <span className="font-semibold text-lg"> Ünvan </span>
-                <span className="text-base">Yasamal, 2th Alatava</span>
+                <span className="text-base">Davud Aslan kücəsi, 7H</span>
               </p>
             </div>
             <div className="flex flex-row items-center gap-4">
