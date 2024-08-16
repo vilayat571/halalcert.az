@@ -35,7 +35,7 @@ export const companiesLinks: ILinks[] = [
     id: 6,
     href: "https://azprotein.az",
     alt:"azprotein.az şirkətinin loqosu AZESERT  şirkətinin vebsaytı",
-    src: "https://azprotein.az/uploads/2023/09/logo-1.png",
+    src: "https://bestsoft.az/share/client/pic_229.png",
   },
 
  {
