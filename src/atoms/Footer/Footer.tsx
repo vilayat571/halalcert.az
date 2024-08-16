@@ -24,7 +24,7 @@ const Footer = () => {
               href={
                 "https://www.instagram.com/azecerthalal?igsh=eHRyMDFzeHZ0ZWRt"
               }
-              aria-label="the link of AzeCert  Social Media Account"
+              aria-label="the link of AzeSert  Social Media Account"
               className=" p-3 bg-[#067E45] border-[1px] border-white rounded-full flex justify-center items-center"
               target="blank"
             >
@@ -37,7 +37,7 @@ const Footer = () => {
               href={
                 "https://www.linkedin.com/company/azesert-halal-/?viewAsMember=false"
               }
-              aria-label="the link of AzeCert  Social Media Account"
+              aria-label="the link of AzeSert  Social Media Account"
               className=" p-3 bg-[#067E45] border-[1px] border-white rounded-full flex justify-center items-center"
               target="blank"
             >
