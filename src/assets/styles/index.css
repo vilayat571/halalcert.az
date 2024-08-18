@@ -21,3 +21,7 @@ body {
   scroll-behavior: smooth;
 
 }
+
+#input{
+  font-family: 'Poppins',sans-serif;
+}

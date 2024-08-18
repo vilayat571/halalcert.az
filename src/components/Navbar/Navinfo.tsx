@@ -1,13 +1,8 @@
-import { navinfoitems } from "../../constants/Navbar/Navitems";
-import Navinfoitem, { INavItemInfo } from "../../atoms/Navbar/Navinfoitem";
+import star from '../../assets/images/star.png'
 const Navinfo = () => {
   return (
-    <div id="info" className="flex flex-row items-center gap-6">
-      {navinfoitems.map((item: INavItemInfo) => {
-        return (
-          <Navinfoitem key={Math.random()} text={item.text} icon={item.icon} title={item.title} />
-        );
-      })}
+    <div id="info" className="flex flex-row items-center mb-1 gap-6">
+     <img src={star} className='h-32 w-32 object-cover' alt="" />
     </div>
   );
 };

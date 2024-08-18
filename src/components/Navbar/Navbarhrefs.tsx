@@ -11,7 +11,13 @@ const Navbarhrefs = () => {
       xl:flex lg:flex md:hidden sm:hidden
       flex justify-between items-center"
     >
-      <Hrefs style={'flex flex-row gap-5 text-white'} />
+      <Hrefs style={"flex flex-row gap-2 text-white"} />
+      <input
+        type="search"
+        id="input"
+        className="px-4 py-3 w-1/3 rounded-sm outline-none border-0 text-black"
+        placeholder="Axtar..."
+      />
       <Anchor
         href="https://wa.me/994553430353"
         style="px-5  py-3 text-sm 
