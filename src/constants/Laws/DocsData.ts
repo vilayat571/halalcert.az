@@ -1,6 +1,5 @@
 import beyan from "../../assets/files/beyan.pdf";
 import odenish from "../../assets/files/odenish.pdf";
-import odenish2 from "../../assets/files/odenish2.pdf";
 import order from "../../assets/files/order.pdf";
 import structure from "../../assets/files/structure.pdf";
 import quality from "../../assets/files/quality.pdf";
@@ -49,22 +48,17 @@ export const dataDocs: IDATADOCS[] = [
   },
   {
     id: 7,
-    text: "7. Ödəniş tarifi - 2",
-    file: odenish2,
-  },
-  {
-    id: 8,
-    text: "8. Bank rekvizitləri",
+    text: "7. Bank rekvizitləri",
     file: rekvizits,
   },
   {
-    id: 9,
-    text: "9. Şikayət forması",
+    id: 8,
+    text: "8. Şikayət forması",
     file: complain1,
   },
   {
-    id: 10,
-    text: "10. Şikayətləri dəyərləndirilməsi",
+    id:9,
+    text: "9. Şikayətləri dəyərləndirilməsi",
     file: complain2,
   },
 ];
