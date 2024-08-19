@@ -43,7 +43,7 @@ const About = () => {
               Azərbaycan Akkreditasiya Mərkəzinin tələblərinə uyğun “Halal”
               məhsullarının Sertifikatlaşdırılması Orqanı kimi fəaliyyət
               göstərir. “Halal” məhsullarının Sertifikatlaşdırılması Orqanı kimi
-              nəzərdə tutulan bu orqanın əsas məqsədi{" "}
+              nəzərdə tutulan bu orqanın əsas məqsədi
               <i>AZS OIC/SMIIC 1:2022 (OIC/SMIIC 1:2019)</i> “Halal qida üçün
               ümumi tələblər” və <i>AZS OIC/SMIIC 2:2022</i> “Uyğunluğun
               qiymətləndirilməsi – halal sertifikatlaşdırmanı həyata keçirən
@@ -51,12 +51,12 @@ const About = () => {
               fəaliyyət göstərməkdir.
               <br />
               <br />
-              “AzeSERT HALAL” {" "}
-              <i>Azərbaycan Respublikasında ilk və yeganə akkreditasiya</i>{" "}
+              “AzeSERT HALAL” 
+              <i>Azərbaycan Respublikasında ilk və yeganə akkreditasiya</i>
               olunmuş “Halal” məhsulların Sertifikatlaşdırılması Orqanıdır.
               <br />
               <br />
-              Halal məhsulların Sertifikatlaşdırılması Orqanı{" "}
+              Halal məhsulların Sertifikatlaşdırılması Orqanı
               <i>
                 AZS OIC/SMIIC 1:2022 (OIC/SMIIC 1:2019) “Halal qida üçün ümumi
                 tələblər”, AZS OIC/SMIIC 2:2022 “Uyğunluğun qiymətləndirilməsi –

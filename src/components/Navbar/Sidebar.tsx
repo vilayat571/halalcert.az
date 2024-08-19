@@ -55,7 +55,7 @@ const Sidebar = () => {
 
         <Hrefs style={"flex flex-col gap-5 text-black mt-4"} />
        <Anchor
-         href='https://wa.me/994507269899'
+         href='https://wa.me/994553430353'
          style='text-white mt-5 cursor-pointer bg-[#067E45] w-32 py-4 rounded text-center  '
          label='The phone number of company whatsapp'
          text='Müraciət'
