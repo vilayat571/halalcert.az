@@ -25,7 +25,7 @@ const About = () => {
             <p className="text-black w-full text-center mb-5 xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl font-semibold">
               “AzeSERT HALAL” 
             </p>
-            <p className=" text-[#585656] text-base tracking-wider ">
+            <p className=" text-[#585656] text-base tracking-wider text-justify ">
               “Halal” məhsullarının keyfiyyətinin yüksəldilməsi, istehlakçıların
               hüquqlarının müdafiə edilməsi, “Halal” məhsullarının rəqabət
               qabiliyyətinin yüksəldilməsi məqsədi ilə 2014-cü ildə “AzeSERT
