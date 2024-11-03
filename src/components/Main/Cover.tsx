@@ -12,7 +12,7 @@ const Cover = () => {
       <div className="w-full  flex items-center justify-center absolute top-100 xl:h-[600px] lg:h-[600px] md:h-screen sm:h-[500px]">
         <div className="flex flex-col items-center">
           <p className="text-white text-center font-semibold xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl mb-0">
-            AzeSERT HALAL
+            AzeSERT HALAL MMC
           </p>
           <p className="text-center text-white xl:text-5xl lg:text-5xl md:text-2xl sm:text-2xl  leading-[60px] my-3 ">
             Halal məhsulların
