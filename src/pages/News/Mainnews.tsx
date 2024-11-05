@@ -14,8 +14,8 @@ const Mainnews = () => {
           <p className="text-3xl mb-8 text-center">- Ən son xəbərlər -</p>
           <div
             className="
-        grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-4
-         xl:px-40 lg:px-40 md:px-12 sm:px-6 
+        grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-12 
+         xl:px-0 lg:px-40 md:px-12 sm:px-6 
              xl:w-3/4 lg:w-full md:w-full sm:w-full "
           >
             {data.map((item) => {
@@ -23,10 +23,10 @@ const Mainnews = () => {
                 <div key={item.id} className="col-span-1 flex flex-col">
                   <img
                     src={item.img}
-                    className="w-[360px] h-[200px] object-cover rounded-lg mb-3"
+                    className="w-[500px] h-[400px] object-cover border-[1px] rounded-lg mb-3"
                     alt={`the image about ${item.title}`}
                   />
-                  <p className="text-base font-semibold mb-2 mt-3">
+                  <p className="text-lg font-semibold mb-2 line-clamp-1 mt-3">
                     {" "}
                     {item.title}
                   </p>
