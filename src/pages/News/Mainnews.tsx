@@ -23,10 +23,10 @@ const Mainnews = () => {
                 <div key={item.id} className="col-span-1 flex flex-col">
                   <img
                     src={item.img}
-                    className="w-[500px] h-[400px] object-cover border-[1px] rounded-lg mb-3"
+                    className="w-[500px] h-[400px] object-contain  mb-0"
                     alt={`the image about ${item.title}`}
                   />
-                  <p className="text-lg font-semibold mb-2 line-clamp-1 mt-3">
+                  <p className="text-lg font-semibold mb-2 line-clamp-1 mt-0">
                     {" "}
                     {item.title}
                   </p>
