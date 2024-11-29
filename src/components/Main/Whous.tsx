@@ -17,36 +17,20 @@ const Whous = () => {
             </p>
           </div>
           <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1">
-            <img className="col-span-1 " src={aak} alt="" />
-            <p className="col-span-2 relative top-12 xl:flex lg:flex md:hidden sm:hidden">
-              {" "}
-              “AzeSERT HALAL” Sertifikatlaşdırma qurumu Türkiyə Respublikasının
-              Halal Akkreditasiya Qurumu (HAK) tərəfindən akkreditasiya olunub.{" "}
-              <br />
-              <a
-                className="text-blue-600"
-                href="https://www.hak.gov.tr/haberler/azesert-halal-mmc-adli-kurulus-hak-tarafindan-akredite-edilmistir"
-              >
-                Sertifikat:
-                https://www.hak.gov.tr/haberler/azesert-halal-mmc-adli-kurulus-hak-tarafindan-akredite-edilmistir
-              </a>
-            </p>
+            <img className="col-span-3 " src={aak} alt="" />
           </div>
 
           <div className="mt-5">
-          <p className=" xl:hidden lg:hidden md:block sm:block mb-6">
-              {" "}
+            <p className="text-xl">
               “AzeSERT HALAL” Sertifikatlaşdırma qurumu Türkiyə Respublikasının
-              Halal Akkreditasiya Qurumu (HAK) tərəfindən akkreditasiya olunub.{" "}
-              <br />
               <a
                 className="text-blue-600"
                 href="https://www.hak.gov.tr/haberler/azesert-halal-mmc-adli-kurulus-hak-tarafindan-akredite-edilmistir"
               >
-                Sertifikat:
-                https://www.hak.gov.tr/haberler/azesert-halal-mmc-adli-kurulus-hak-tarafindan-akredite-edilmistir
+                Halal Akkreditasiya Qurumu (HAK) tərəfindən akkreditasiya olunub.
               </a>
             </p>
+            <br />
             Akkreditasiya tələbləri İslam Ölkələrinin Standartlar və Metrologiya
             İnstitutunun (SMIIC) “OIC/SMIIC 2:2019 Uyğunluğun qiymətləndirilməsi
             “HALAL” sertifikatlaşdırmanı həyata keçirən qurumlar üçün tələblər”
@@ -55,16 +39,16 @@ const Whous = () => {
             verən “HALAL” uyğunluq sertifikatını təqdim etmək hüququna malik
             olmuşdur. Qurumun məqsədi Azərbaycan Respublikasında istehsal olunan
             Halal məhsulların beynəlxalq bazara rahatcılıqla cıxışını təmin
-            etməkdir. <br />
+            etməkdir.
             <br />
-            etməkdir. “AzeSERT HALAL” Halal məhsullarının keyfiyyətinin
-            yüksəldilməsi, istehlakçıların hüquqlarının müdafiə edilməsi,
-            “Halal” məhsullarının rəqabət qabiliyyətinin yüksəldilməsi məqsədi
-            ilə 2014-cü ildə “Halal məhsulların Sertifikatlaşdırılması Qurumu
-            olaraq təsis edilmişdir. “AzeSERT HALAL” Halal məhsulların
-            Sertifikatlaşdırılması Qurumu 2014-cü ildən bu günə kimi yalnız
-            “HALAL” məhsulların sertifikatlaşdırılması qurumu kimi fəaliyyət
-            göstərir.
+            <br />
+            “AzeSERT HALAL” Halal məhsullarının keyfiyyətinin yüksəldilməsi,
+            istehlakçıların hüquqlarının müdafiə edilməsi, “Halal” məhsullarının
+            rəqabət qabiliyyətinin yüksəldilməsi məqsədi ilə 2014-cü ildə “Halal
+            məhsulların Sertifikatlaşdırılması Qurumu olaraq təsis edilmişdir.
+            “AzeSERT HALAL” Halal məhsulların Sertifikatlaşdırılması Qurumu
+            2014-cü ildən bu günə kimi yalnız “HALAL” məhsulların
+            sertifikatlaşdırılması qurumu kimi fəaliyyət göstərir.
             <br />
             <br />
             “AzeSERT HALAL” Halal məhsulların Sertifikatlaşdırılması Qurumu AZS
