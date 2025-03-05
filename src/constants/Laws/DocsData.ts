@@ -27,7 +27,7 @@ export const dataDocs: IDATADOCS[] = [
   },
   {
     id: 3,
-    text: "3.Sertifikatlaşdırma proseduru",
+    text: "3. Sertifikatlaşdırma proseduru",
     file: laws,
   },
   {

@@ -4,7 +4,7 @@ import { dataDocs, IDATADOCS } from "../../constants/Laws/DocsData.ts";
 
 const Docs = () => {
   return (
-    <div className="hidden mt-0  flex-col gap-3">
+    <div className="flex mt-0  flex-col gap-3">
       <Ptag text={"Sənədlər"} />
       {dataDocs.map((item: IDATADOCS) => {
         return (
